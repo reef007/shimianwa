@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding:0;margin:0;}
+.clr{clear:both;}
+.header-line{border-bottom:7px solid #e86400;width:100%;}
+.header{width:100%;height:155px;background-color:#FDFDFD;}
+.header .header-con{width:1004px;height:155px;margin:0 auto;}
+.header .header-con .header-con-top{width:1004px;height:28px;}
+.header .header-con .header-con-top a{text-decoration:none;color:#e86400;font-size:12px;font-family:"宋体";float:right;display:block;height:28px;line-height:28px;}
+.header .header-con .header-con-top span{font-size:12px;float:right;color:#e86400;margin-right:10px;margin-left:10px;display:block;height:28px;line-height:28px;}
+.header .header-con .con{width:1004px;height:127px;}
+.header .header-con .con .logo{display:block;width:433px;height:79px;background:url(image/logo.png) no-repeat 0 0;margin-top:20px;margin-left:10px;float:left;}
+.header .header-con .con .tel{display:block;width:323px;height:79px;background:url(image/tel.png) no-repeat 0 0;margin-top:20px;margin-right:20px;float:right;}
+/*头部完成*/
+.banner{width:100%;height:36px;background-color:#e86400;}
+.banner .banner-con{width:1004px;height:36px;margin:0 auto;}
+.banner .banner-con ul li{width:125px;height:36px;line-height:36px;list-style:none;float:left;text-align:center;}
+.banner .banner-con ul li a{color:#FFF;font-size:16px;text-decoration:none;width:125px;height:36px;line-height:36px;text-align:center;}
+/*banner部分完成*/
+.content{width:1004px;height:1002px;margin:0 auto;}
+.content .content-top{width:1004px;height:337px;background:url(image/lunbo1.png) no-repeat 0 0;}
+.content .content-left{width:253px;height:671px;float:left;}
+.content .content-left .content-left-top{width:253px;height:249px;}
+.content .content-left .content-left-top .news{width:253px;height:38px;background:url(image/news.png) no-repeat 0 center;}
+.content .content-left .content-left-top .news a{text-decoration:none;float:right;color:#e86400;font-size:14px;font-weight:bold;display:block;height:38px;line-height:38px;}
+.content .content-left .content-left-top .liebiao{width:253px;height:211px;}
+.content .content-left .content-left-top .liebiao ul li{height:29px;line-height:29px;list-style:none;border-bottom:1px dashed #FF9933;float:left;width:100%;}
+.content .content-left .content-left-top .liebiao ul li a{text-decoration:none;float:left;font-size:12px;color:#000;margin-left:20px;}
+.content .content-left .content-left-top .liebiao ul li a:hover{text-decoration:underline;}
+.content .content-left .content-left-top .liebiao ul li span{font-size:12px;float:right;margin-right:15px;}
+/*左上部分完成*/
+.content .content-left .content-left-bottom{width:253px;height:414px;background:#e2e2e2;margin-top:8px;}
+.content .content-left .content-left-bottom .listtop{width:253px;height:38px;background:url(image/liebiao.png) no-repeat 0 0;}
+.content .content-left .content-left-bottom .div1{width:253px;height:220px;font-size:12px;font-family:"宋体";color:#e86400;}
+.content .content-left .content-left-bottom .div1 p{font-size:14px;font-weight:bolder;background:url(image/biaoji.png) no-repeat 0 center;padding-left:25px;margin-top:10px;margin-left:15px;height:29px;line-height:29px;}
+.content .content-left .content-left-bottom .div1 ul li{list-style:none;width:110px;height:25px;line-height:25px;float:left;margin-left:15px;}
+.content .content-left .content-left-bottom .div1 ul li span{display:block;width:70px;height:25px;line-height:25px;text-align:center;border-bottom:1px dashed #999999;}
+.content .content-left .content-left-bottom .div2{width:253px;height:147px;font-size:14px;font-family:"宋体";color:#e86400;font-weight:bolder;}
+.content .content-left .content-left-bottom .div2 ul li{list-style:none;width:85px;height:28px;line-height:28px;float:left;margin-left:15px;background:url(image/biaoji.png) no-repeat 0 center;padding-left:25px;}
+/*左下部分完成*/
+.content .content-right-top{width:736px;height:249px;float:left;margin-left:15px;}
+.content .content-right-top .content-right-top-left{width:490px;height:249px;float:left;}
+.content .content-right-top .content-right-top-left .jianjie{width:490px;height:38px;background:url(image/jianjie.png) no-repeat 0 center;border-bottom:2px solid #F90;}
+.content .content-right-top .content-right-top-left .jianjie a{display:block;margin-top:20px;text-decoration:none;font-size:14px;font-family:"宋体";color:#F93;float:right;margin-right:5px;font-weight:500;}
+.content .content-right-top .content-right-top-left .jianjie-content{width:490px;height:213px;}
+.content .content-right-top .content-right-top-left .jianjie-content p{font-size:12px;text-indent:24px;line-height:28px;padding:2px 5px;}
+.content .content-right-top .content-right-top-right{width:232px;height:245px;float:right;margin-top:5px;background:url(image/telpic.jpg) no-repeat center bottom;}
+.content .content-right-top .content-right-top-right .lianxi{width:232px;height:40px;background:url(image/contact.png) no-repeat center center;}
+.content .content-right-top .content-right-top-right .biaoti{font-size:14px;color:#F90;display:block;text-align:center;font-family:"宋体";font-weight:bold;margin-top:10px;margin-bottom:10px;}
+.content .content-right-top .content-right-top-right p{font-size:12px;font-family:"宋体";height:25px;line-height:25px;margin-left:34px;}
+/*右上部分完成*/
+.content .content-right-bottom{width:736px;height:414px;float:left;margin-left:15px;}
+.content .content-right-bottom .product{width:736px;height:37px;background:url(image/product.png) no-repeat 0 center;border-bottom:2px solid #F93;}
+.content .content-right-bottom .product a{display:block;width:33px;height:17px;line-height:17px;float:right;background:#F93;color:#FFF;font-family:"宋体";font-size:12px;text-align:center;margin-top:10px;border-radius:3px;text-decoration:none;margin-top:15px;}
+.content .content-right-bottom .product-con{width:736px;height:380px;}
+.content .content-right-bottom .product-con .product-pic{width:211px;height:172px;float:left;margin-left:25px;margin-top:15px;}
+.content .content-right-bottom .product-con .product-pic span{font-size:12px;color:#F93;display:block;text-align:center;}
+/*内容部分完成*/
+.footer{width:100%;height:110px;background:#e86400;padding-top:20px;margin-top:15px;}
+.footer p{font-family:"宋体";font-size:12px;color:#FFF;text-align:center;height:28px;line-height:28px;}
+/*底部完成*/
