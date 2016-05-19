@@ -3,7 +3,7 @@
 *{padding:0;margin:0;}
 .clr{clear:both;}
 .header-line{border-bottom:7px solid #e86400;width:100%;}
-.header{width:100%;height:155px;background-color:#FDFDFD;}
+.header{width:100%;height:155px;background-color:#f8f8f8;}
 .header .header-con{width:1004px;height:155px;margin:0 auto;}
 .header .header-con .header-con-top{width:1004px;height:28px;}
 .header .header-con .header-con-top a{text-decoration:none;color:#e86400;font-size:12px;font-family:"宋体";float:right;display:block;height:28px;line-height:28px;}
